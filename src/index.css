@@ -1,0 +1,223 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  margin: 0 2rem;
+  font-size: 1rem;
+  transition: ease-in-out 0.3s;
+}
+
+.navbar-brand img {
+  width: 16rem;
+}
+
+.topSection {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 8rem;
+  align-items: center;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.left {
+  gap: var(--size-10);
+  justify-content: center;
+}
+
+.greeting span {
+  color: rgb(165, 13, 13);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li:nth-child(1) {
+  border-radius: 8px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  height: auto;
+  width: 100%;
+  min-height: 25rem;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link a {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #385676;
+  margin: var(--size-10) var(--size-20);
+  line-height: 1.25rem;
+}
+
+.nav-link a span {
+  margin-left: 10px;
+  font-size: 16px;
+  color: rgb(165, 13, 13);
+}
+
+.right {
+  gap: var(--size-10);
+  align-items: end;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+.search-input {
+  padding: 5px 30px 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 10.5rem;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.categories {
+  font-size: 1rem;
+}
+
+.categories span {
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: var(--size-10);
+  padding: 8px 8px 4px;
+}
+
+.categories span:nth-child(1) {
+  background-color: #a52e31;
+  color: white;
+}
+
+.categories hr {
+  width: 100%;
+  background-color: #a52e31;
+  height: 4px;
+  border: none;
+}
+
+.category i {
+  font-size: var(--size-10);
+  margin: 0 5px;
+}
+
+.types span {
+  padding: 2px 7px 3px;
+  color: #385676;
+}
+
+.types span:first-child {
+  background-color: #aaaaaa;
+  font-weight: 700;
+}
+
+.access {
+  display: flex;
+  flex-direction: row;
+  background-color: #385676;
+  align-items: center;
+  padding: 0 1rem;
+  color: white;
+}
+
+.access p {
+  margin-right: auto;
+}
+
+.access span {
+  padding: 5px;
+}
+
+.access span i {
+  margin: 0 5px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: var(--size-10);
+}
+
+/* Style the select dropdown arrow */
+select::-ms-expand {
+  display: none; /* Hide arrow in Internet Explorer */
+}
+select::after {
+  content: "\25BC"; /* Unicode value for downward arrow */
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure arrow does not interfere with select */
+}
+
+/* Style select dropdown options */
+select option {
+  background-color: white;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* tbody tr:nth-child(2n){
+    background-color: #ccc;
+    color: white;
+} */
