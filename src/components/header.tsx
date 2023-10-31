@@ -14,7 +14,7 @@ export const Header = ({ page, setPage }: HeaderProps) => {
         <div className="container topSection">
           <a
             className="navbar-brand"
-            href="index.html"
+            href="#"
           >
             <img
               src="https://i.pinimg.com/originals/92/1c/c7/921cc7b0a1f51a7f46ea06f1ede3ccf5.jpg"

@@ -10,7 +10,8 @@
 }
 
 .navbar-brand img {
-  width: 16rem;
+  width: 12rem;
+  height: 5rem;
 }
 
 .topSection {
@@ -51,9 +52,9 @@ nav ul {
   margin: 0;
 }
 
-nav ul li:nth-child(1) {
+nav ul li.active {
   border-radius: 8px;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 .section {
@@ -123,7 +124,7 @@ nav ul li:nth-child(1) {
   padding: 8px 8px 4px;
 }
 
-.categories span:nth-child(1) {
+.categories span.active {
   background-color: #a52e31;
   color: white;
 }
@@ -140,12 +141,17 @@ nav ul li:nth-child(1) {
   margin: 0 5px;
 }
 
+.category,
+.type {
+  cursor: pointer;
+}
+
 .types span {
   padding: 2px 7px 3px;
   color: #385676;
 }
 
-.types span:first-child {
+.types span.active {
   background-color: #aaaaaa;
   font-weight: 700;
 }

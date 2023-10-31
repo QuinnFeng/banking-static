@@ -33,8 +33,8 @@ export const Navigations = ({
         <div className="categories">
           {categories.map((c) => (
             <span
-              className="category"
               key={c}
+              className={c == category ? "active category" : "category"}
               onClick={() => setCategory(c)}
             >
               {c}
@@ -46,7 +46,7 @@ export const Navigations = ({
         <div className="types">
           {types.map((t) => (
             <span
-              className="category"
+              className={t == type ? "active type" : "type"}
               key={t}
               onClick={() => setType(t)}
             >
