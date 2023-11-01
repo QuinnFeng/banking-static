@@ -177,6 +177,10 @@ nav ul li.active {
   margin: 0 5px;
 }
 
+.balance {
+  margin-top: 10px;
+}
+
 select {
   padding: 8px;
   border: 1px solid #ccc;
@@ -198,7 +202,6 @@ select::after {
   pointer-events: none; /* Ensure arrow does not interfere with select */
 }
 
-/* Style select dropdown options */
 select option {
   background-color: white;
   color: black;
@@ -208,6 +211,7 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 th,
 td {
   padding: 8px;
@@ -222,8 +226,3 @@ th {
 tbody tr:last-child td {
   border-bottom: none;
 }
-
-/* tbody tr:nth-child(2n){
-    background-color: #ccc;
-    color: white;
-} */

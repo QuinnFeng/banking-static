@@ -107,6 +107,7 @@ img {
   padding: 0.375rem 0.75rem;
   border-radius: var(--size-30);
   transition: ease-in-out 0.3s;
+  margin: var(--size-10) 0;
 }
 
 .btn-white {

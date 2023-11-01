@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTransactions } from "./TransactionProvider";
 import { ChangeEvent, useState } from "react";
+import { formatNumber } from "../util/util";
 
 export const Balance = () => {
   const { balance } = useTransactions();
@@ -11,26 +12,19 @@ export const Balance = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container balance">
         <h2>Selected Account</h2>
         <select
           value={selectedOptionValue}
           onChange={handleOptionChange}
         >
           <option value="option1">
-            ***1119 - Capital Checking (Available ${balance})
+            ***1119 - Capital Checking (Available ${formatNumber(balance)})
           </option>
           <option value="option2">
-            ***1218 - Capital Checking (Available ${balance})
+            ***1218 - Capital Checking (Available ${formatNumber(6512.18)})
           </option>
         </select>
-        <p>{balance}</p>
-      </div>
-
-      <div className="links-container">
-        <Link to="/addTransaction">
-          <button className="btn">Add Transaction</button>
-        </Link>
       </div>
     </>
   );

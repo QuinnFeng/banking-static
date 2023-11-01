@@ -1,4 +1,234 @@
 {
-  "accounts": [{ "id": 0, "balance": 500 }],
-  "transactions": [{}]
+  "accounts": [
+    {
+      "id": 0,
+      "balance": 29326.019999999997
+    }
+  ],
+  "transactions": [
+    {
+      "date": "05/27/2023",
+      "description": "DDA DEPOSIT",
+      "isDeposit": true,
+      "amount": 500,
+      "balance": 500,
+      "id": 1
+    },
+    {
+      "date": "06/02/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 10000,
+      "balance": 10500,
+      "id": 2
+    },
+    {
+      "date": "06/09/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 12786,
+      "id": 3
+    },
+    {
+      "date": "06/15/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 42.84,
+      "balance": 12743.16,
+      "id": 4
+    },
+    {
+      "date": "06/15/2023",
+      "description": "199 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 12.38,
+      "balance": 12730.78,
+      "id": 5
+    },
+    {
+      "date": "06/16/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 10000,
+      "balance": 22730.78,
+      "id": 6
+    },
+    {
+      "date": "06/21/2023",
+      "description": "LOWE'S #692 1345 CEN PISCAT",
+      "isDeposit": false,
+      "amount": 42.61,
+      "balance": 22688.17,
+      "id": 7
+    },
+    {
+      "date": "06/23/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 24974.17,
+      "id": 8
+    },
+    {
+      "date": "06/26/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 25.19,
+      "balance": 24948.98,
+      "id": 9
+    },
+    {
+      "date": "06/26/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 57.02,
+      "balance": 24891.96,
+      "id": 10
+    },
+    {
+      "date": "06/28/2023",
+      "description": "Zelle To BEIHONG FENG 888-7",
+      "isDeposit": false,
+      "amount": 1000,
+      "balance": 23891.96,
+      "id": 11
+    },
+    {
+      "date": "06/30/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 7047.18,
+      "balance": 30939.14,
+      "id": 12
+    },
+    {
+      "date": "07/02/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 21.15,
+      "balance": 30917.989999999998,
+      "id": 13
+    },
+    {
+      "date": "07/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 27917.989999999998,
+      "id": 14
+    },
+    {
+      "date": "07/06/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 56.85,
+      "balance": 27861.14,
+      "id": 15
+    },
+    {
+      "date": "07/07/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 30147.14,
+      "id": 16
+    },
+    {
+      "date": "07/14/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 15.6,
+      "balance": 30131.54,
+      "id": 17
+    },
+    {
+      "date": "07/15/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 24.22,
+      "balance": 30107.32,
+      "id": 18
+    },
+    {
+      "date": "07/21/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 32393.32,
+      "id": 19
+    },
+    {
+      "date": "07/21/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 27.28,
+      "balance": 32366.04,
+      "id": 20
+    },
+    {
+      "date": "07/21/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 54.45,
+      "balance": 32311.59,
+      "id": 21
+    },
+    {
+      "date": "07/29/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 29.61,
+      "balance": 32281.98,
+      "id": 22
+    },
+    {
+      "date": "08/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 29281.98,
+      "id": 23
+    },
+    {
+      "date": "08/04/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 31567.98,
+      "id": 24
+    },
+    {
+      "date": "08/04/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 57.33,
+      "balance": 31510.649999999998,
+      "id": 25
+    },
+    {
+      "date": "08/06/2023",
+      "description": "NNT NJMVC EDISON 0 EDISON",
+      "isDeposit": false,
+      "amount": 165.5,
+      "balance": 31345.149999999998,
+      "id": 26
+    },
+    {
+      "date": "08/06/2023",
+      "description": "WITHDRAWALS",
+      "isDeposit": false,
+      "amount": 2000,
+      "balance": 29345.149999999998,
+      "id": 27
+    },
+    {
+      "date": "08/07/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 19.13,
+      "balance": 29326.019999999997,
+      "id": 28
+    }
+  ]
 }

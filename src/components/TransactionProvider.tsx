@@ -15,12 +15,13 @@ type TransactionContextType = {
   setIsLoading: (isLoading: boolean) => void;
   balance: number;
   setBalance: (balance: number) => void;
-  postTransaction: (
+  createTransaction: (
     date: string,
     description: string,
     isDeposit: boolean,
     amount: number
   ) => void;
+  deleteTransaction: (id: number) => void;
 };
 
 const TransactionContext = createContext<TransactionContextType>(
@@ -40,33 +41,36 @@ export const TransactionProvider = ({ children }: { children: ReactNode }) => {
   const fetchTransactions = () => {
     transactionRequests
       .getAllTransactions()
-      .then((transactions: Array<transaction>) => setTransactions(transactions))
+      .then((transactions: Array<transaction>) => setTransactions(transactions.reverse()))
       .catch((error) => console.error("Error fetching data:", error));
   };
 
   const fetchAccountBalance = () => {
     transactionRequests
       .getAccountBalance(0)
-      .then((b) => setBalance(b))
+      .then((b) => {
+        setBalance(b);
+      })
       .catch((error) => console.error("Error fetching balance:", error));
   };
 
-  const postTransaction = (
+  const createTransaction = (
     date: string,
     description: string,
     isDeposit: boolean,
     amount: number
   ) => {
-    const transaction: Partial<transaction> = {
+    const nextBalance = isDeposit ? balance + amount : balance - amount;
+    const nextTransaction: Partial<transaction> = {
       date,
       description,
       isDeposit,
       amount,
+      balance: nextBalance,
     };
     setIsLoading(true);
-    const nextBalance = isDeposit ? balance + amount : balance - amount;
     transactionRequests
-      .postTransaction(transaction)
+      .postTransaction(nextTransaction)
       .then(() =>
         transactionRequests.updateAccountBalance(0, { balance: nextBalance })
       )
@@ -74,9 +78,26 @@ export const TransactionProvider = ({ children }: { children: ReactNode }) => {
       .catch((error) => console.error(error))
       .finally(() => {
         setIsLoading(false);
+        fetchTransactions();
+        fetchAccountBalance();
       });
-    fetchTransactions();
-    fetchAccountBalance();
+  };
+
+  const deleteTransaction = async (id: number) => {
+    const trans = await transactionRequests.getTransactionById(id);
+    const { amount, isDeposit } = trans;
+    const nextBalance = isDeposit ? balance - amount : balance + amount;
+    transactionRequests
+      .deleteTransactionRequest(id)
+      .then(() =>
+        transactionRequests.updateAccountBalance(0, { balance: nextBalance })
+      )
+      .then(() => () => toast.success(`deleted transaction #${id}`))
+      .catch((error) => console.log(error))
+      .finally(() => {
+        fetchTransactions();
+        fetchAccountBalance();
+      });
   };
 
   return (
@@ -87,7 +108,8 @@ export const TransactionProvider = ({ children }: { children: ReactNode }) => {
         setIsLoading,
         balance,
         setBalance,
-        postTransaction,
+        createTransaction,
+        deleteTransaction,
       }}
     >
       {children}

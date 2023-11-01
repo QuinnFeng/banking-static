@@ -1,10 +1,29 @@
+import { useState } from "react";
 import { useTransactions } from "./TransactionProvider";
+import { formatNumber } from "../util/util";
 
 export const Transactions = () => {
-  const { transactions } = useTransactions();
+  const [tid, setTid] = useState(0);
+  const { transactions, deleteTransaction } = useTransactions();
 
   return (
     <>
+      <div className="delete-transaction">
+        <input
+          type="number"
+          value={tid}
+          onChange={(e) => setTid(+e.target.value)}
+        />
+        <button
+          className="btn"
+          onClick={() => {
+            deleteTransaction(tid);
+            setTid(0);
+          }}
+        >
+          confirm
+        </button>
+      </div>
       <section className="summary">
         <div className="access">
           <p>Your account activities</p>
@@ -27,17 +46,21 @@ export const Transactions = () => {
                 <th>Debit</th>
                 <th>Credit</th>
                 <th>Balance</th>
+                <th>id</th>
               </tr>
             </thead>
-            {/* <tbody>
-                {transactions.map((t) => <tr key={t.id}>
+            <tbody>
+              {transactions.map((t) => (
+                <tr key={t.id}>
+                  <td>{t.date}</td>
                   <td>{t.description}</td>
-                  <td>{t.description}</td>
-                  <td>{t.isDeposit ? "" : t.amount}</td>
-                  <td>{t.isDeposit ? t.amount : ""}</td>
-                  <td>{ t.balance}</td>
-                </tr>)}
-              </tbody> */}
+                  <td>{t.isDeposit ? "" : "$" + formatNumber(t.amount)}</td>
+                  <td>{t.isDeposit ? "$" + formatNumber(t.amount) : ""}</td>
+                  <td>{"$" + formatNumber(t.balance)}</td>
+                  <td>{t.id}</td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         </div>
       </section>
