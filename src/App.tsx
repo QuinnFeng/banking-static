@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 import "./index.css";
+import "./cadence/cadence.css";
 import { Header } from "./components/header";
 import { Navigations } from "./components/navigation";
 import { Transactions } from "./components/transactions";
 import { Balance } from "./components/balance";
-import { transactionRequests } from "./api";
 import { TransactionProvider } from "./components/TransactionProvider";
 import { AddTransaction } from "./components/addTransaction";
 import { descriptions } from "./util/const";
+import { LandingPage } from "./cadence/landing";
 
 function App() {
   const [page, setPage] = useState("My Accounts");
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Header
+      {/* <Header
         page={page}
         setPage={setPage}
       />
@@ -50,7 +51,8 @@ function App() {
         {descriptions.map((description) => (
           <option key={description}>{description}</option>
         ))}
-      </datalist>
+      </datalist> */}
+      <LandingPage />
     </>
   );
 }

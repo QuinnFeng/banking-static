@@ -2,7 +2,7 @@
   "accounts": [
     {
       "id": 0,
-      "balance": 29326.019999999997
+      "balance": 35476.399999999994
     }
   ],
   "transactions": [
@@ -229,6 +229,310 @@
       "amount": 19.13,
       "balance": 29326.019999999997,
       "id": 28
+    },
+    {
+      "date": "08/12/2023",
+      "description": "N.J. State Auto Inspection",
+      "isDeposit": false,
+      "amount": 60,
+      "balance": 29266.019999999997,
+      "id": 29
+    },
+    {
+      "date": "08/12/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 31.28,
+      "balance": 29234.739999999998,
+      "id": 30
+    },
+    {
+      "date": "08/18/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 31520.74,
+      "id": 31
+    },
+    {
+      "date": "08/18/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 45.91,
+      "balance": 31474.83,
+      "id": 32
+    },
+    {
+      "date": "08/18/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 53.89,
+      "balance": 31420.94,
+      "id": 33
+    },
+    {
+      "date": "08/21/2023",
+      "description": "AMZN Mktp US*TO1L155M0 Amzn.com bill WA",
+      "isDeposit": false,
+      "amount": 46.13,
+      "balance": 31374.81,
+      "id": 34
+    },
+    {
+      "date": "08/21/2023",
+      "description": "WAL-MART #5201 EDISON NJ",
+      "isDeposit": false,
+      "amount": 56.58,
+      "balance": 31318.23,
+      "id": 35
+    },
+    {
+      "date": "08/25/2023",
+      "description": "WAL Wal-Mart Super 0 EDISON NJ",
+      "isDeposit": false,
+      "amount": 72.23,
+      "balance": 31246,
+      "id": 36
+    },
+    {
+      "date": "08/26/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 28.87,
+      "balance": 31217.13,
+      "id": 37
+    },
+    {
+      "date": "09/01/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 33503.13,
+      "id": 38
+    },
+    {
+      "date": "09/01/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 31.57,
+      "balance": 33471.56,
+      "id": 39
+    },
+    {
+      "date": "09/01/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 25.56,
+      "balance": 33446,
+      "id": 40
+    },
+    {
+      "date": "09/01/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 52.62,
+      "balance": 33393.38,
+      "id": 41
+    },
+    {
+      "date": "09/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 30393.38,
+      "id": 42
+    },
+    {
+      "date": "09/08/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 36.65,
+      "balance": 30356.73,
+      "id": 43
+    },
+    {
+      "date": "09/08/2023",
+      "description": "WAL-MART #5201 EDISON NJ",
+      "isDeposit": false,
+      "amount": 40.84,
+      "balance": 30315.89,
+      "id": 44
+    },
+    {
+      "date": "09/08/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 25.69,
+      "balance": 30290.2,
+      "id": 45
+    },
+    {
+      "date": "09/15/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 25.73,
+      "balance": 30264.47,
+      "id": 46
+    },
+    {
+      "date": "09/15/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 20.98,
+      "balance": 30243.49,
+      "id": 47
+    },
+    {
+      "date": "09/15/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 32529.49,
+      "id": 48
+    },
+    {
+      "date": "09/18/2023",
+      "description": "Zelle To YINGHAO FENG 888-797-7711",
+      "isDeposit": false,
+      "amount": 340,
+      "balance": 32189.49,
+      "id": 49
+    },
+    {
+      "date": "09/19/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 51.25,
+      "balance": 32107.56,
+      "id": 50
+    },
+    {
+      "date": "09/22/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 30.78,
+      "balance": 32076.780000000002,
+      "id": 51
+    },
+    {
+      "date": "09/28/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 36.78,
+      "balance": 32040.000000000004,
+      "id": 52
+    },
+    {
+      "date": "09/29/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 34326,
+      "id": 53
+    },
+    {
+      "date": "10/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 31326,
+      "id": 54
+    },
+    {
+      "date": "10/06/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 23.98,
+      "balance": 31302.02,
+      "id": 55
+    },
+    {
+      "date": "10/06/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 31.29,
+      "balance": 31270.73,
+      "id": 56
+    },
+    {
+      "date": "10/06/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 50.97,
+      "balance": 31219.76,
+      "id": 57
+    },
+    {
+      "date": "10/13/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 33505.759999999995,
+      "id": 58
+    },
+    {
+      "date": "10/13/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 38.42,
+      "balance": 33467.34,
+      "id": 59
+    },
+    {
+      "date": "10/13/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 25.67,
+      "balance": 33441.67,
+      "id": 60
+    },
+    {
+      "date": "10/14/2023",
+      "description": "HARBOR FREIGHT TOOLS EAST BRUNSWIC NJ",
+      "isDeposit": false,
+      "amount": 47.69,
+      "balance": 33393.979999999996,
+      "id": 61
+    },
+    {
+      "date": "10/20/2023",
+      "description": "WAL-MART #5201 EDISON NJ",
+      "isDeposit": false,
+      "amount": 77.53,
+      "balance": 33316.45,
+      "id": 62
+    },
+    {
+      "date": "10/20/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 28.79,
+      "balance": 33287.659999999996,
+      "id": 63
+    },
+    {
+      "date": "10/20/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 50.28,
+      "balance": 33237.38,
+      "id": 64
+    },
+    {
+      "date": "10/27/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 35523.38,
+      "id": 65
+    },
+    {
+      "date": "10/28/2023",
+      "description": "COSTCO WHSE #11 NORTH BRUNSWI NJ",
+      "isDeposit": false,
+      "amount": 46.98,
+      "balance": 35476.399999999994,
+      "id": 66
     }
   ]
 }

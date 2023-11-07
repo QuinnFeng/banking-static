@@ -19,7 +19,6 @@ export const AddTransaction = () => {
     setIsDeposit(false);
     setAmount(0);
     setDescription("");
-    setFormattedDate("");
   };
 
   const handleDateChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -43,7 +42,7 @@ export const AddTransaction = () => {
             <input
               id="amount"
               type="number"
-              value={amount}
+              value={amount || ""}
               onChange={(e) => {
                 setAmount(+e.target.value);
               }}

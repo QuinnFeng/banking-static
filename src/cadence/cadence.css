@@ -1,0 +1,81 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0 2.5rem;
+}
+.cb-header {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.cb-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.cb-logo {
+  width: 8.75rem;
+  height: 4.5rem;
+}
+
+.inquiry {
+  display: flex;
+  gap: 1rem;
+}
+
+.inquiry li {
+}
+
+.navs {
+  display: flex;
+  gap: 2rem;
+}
+
+.navs li {
+  color: var(--cadence);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.navs li i {
+  font-size: 0.625rem;
+  margin-left: 0.25rem;
+  font-weight: bold;
+}
+
+.search {
+  border: none;
+  background-color: white;
+  padding: 0.325rem;
+  border-radius: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.search i {
+  font-size: 1.25rem;
+  color: var(--cadence);
+  transition: color 0.3s;
+}
+
+.search:hover {
+  background-color: var(--cadence);
+}
+
+.search:hover i {
+  color: white;
+}
+
+.login {
+  background-color: #ffc000;
+  color: var(--cadence);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
