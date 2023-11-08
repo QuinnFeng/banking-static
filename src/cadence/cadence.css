@@ -29,9 +29,17 @@
 .inquiry {
   display: flex;
   gap: 1rem;
+  height: 2rem;
+  align-items: center;
 }
 
 .inquiry li {
+  color: var(--cadence);
+}
+
+.inquiry li:hover {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .navs {
@@ -43,6 +51,23 @@
   color: var(--cadence);
   font-weight: 600;
   font-size: 1.125rem;
+  position: relative;
+  display: inline-block;
+}
+
+.navs li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Adjust the underline height as needed */
+  background-color: var(--cadence); /* Adjust the underline color as needed */
+  bottom: 0;
+  left: 0;
+  transition: width 0.7s;
+}
+
+.navs li:hover::before {
+  width: 100%;
 }
 
 .navs li i {
@@ -55,12 +80,13 @@
   border: none;
   background-color: white;
   padding: 0.325rem;
-  border-radius: 1.2rem;
+  border-radius: 1.10625rem;
   transition: background-color 0.3s;
+  margin-right: 0.25rem;
 }
 
 .search i {
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
   color: var(--cadence);
   transition: color 0.3s;
 }
@@ -78,4 +104,9 @@
   color: var(--cadence);
   border-radius: 5px;
   padding: 0.5rem 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: end;
 }
