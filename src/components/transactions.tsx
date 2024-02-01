@@ -1,4 +1,4 @@
-import { SetStateAction, SyntheticEvent, useEffect, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import { useTransactions } from "./TransactionProvider";
 import { formatNumber } from "../util/util";
 import ReactPaginate from "react-paginate";

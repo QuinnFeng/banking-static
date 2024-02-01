@@ -9,7 +9,6 @@ import { Balance } from "./components/balance";
 import { TransactionProvider } from "./components/TransactionProvider";
 import { AddTransaction } from "./components/addTransaction";
 import { descriptions } from "./util/const";
-import { LandingPage } from "./cadence/landing";
 
 function App() {
   const [page, setPage] = useState("My Accounts");
