@@ -1,6 +1,8 @@
 import { account, transaction } from "./types";
 
-const baseUrl = "http://localhost:3000";
+//const baseUrl = "http://localhost:3000";
+const baseUrl =
+  "http://https://banking-react-ivtbo5e6f-quinnfeng26276-gmailcom.vercel.app/";
 const headers = {
   "Content-type": "application/json",
 };
@@ -9,7 +11,7 @@ const getAllTransactions = () => {
   return fetch(`${baseUrl}/transactions`).then((data) => data.json());
 };
 
-const getTransactionById = (id: number):Promise<transaction> => {
+const getTransactionById = (id: number): Promise<transaction> => {
   return fetch(`${baseUrl}/transactions/${id}`).then((data) => data.json());
 };
 
@@ -18,12 +20,12 @@ const postTransaction = ({
   description,
   isDeposit,
   amount,
-  balance
+  balance,
 }: Partial<transaction>) => {
   return fetch(`${baseUrl}/transactions`, {
     method: "POST",
     headers,
-    body: JSON.stringify({ date, description, isDeposit, amount,balance}),
+    body: JSON.stringify({ date, description, isDeposit, amount, balance }),
   }).then((data) => data.json());
 };
 
@@ -57,5 +59,5 @@ export const transactionRequests = {
   postTransaction,
   getAccountBalance,
   updateAccountBalance,
-  getTransactionById
+  getTransactionById,
 };
