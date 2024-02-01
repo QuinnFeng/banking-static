@@ -2,7 +2,7 @@
   "accounts": [
     {
       "id": 0,
-      "balance": 35476.399999999994
+      "balance": 1422.5900000000001
     }
   ],
   "transactions": [
@@ -533,6 +533,526 @@
       "amount": 46.98,
       "balance": 35476.399999999994,
       "id": 66
+    },
+    {
+      "date": "11/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 32476.399999999994,
+      "id": 67
+    },
+    {
+      "date": "11/03/2023",
+      "description": "WITHDRAWLS",
+      "isDeposit": false,
+      "amount": 2000,
+      "balance": 30476.399999999994,
+      "id": 68
+    },
+    {
+      "date": "11/04/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 35.45,
+      "balance": 30440.949999999993,
+      "id": 69
+    },
+    {
+      "date": "11/04/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 33.52,
+      "balance": 30407.429999999993,
+      "id": 70
+    },
+    {
+      "date": "11/10/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 32693.429999999993,
+      "id": 71
+    },
+    {
+      "date": "11/10/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 33.75,
+      "balance": 32659.679999999993,
+      "id": 72
+    },
+    {
+      "date": "11/10/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 32.86,
+      "balance": 32626.819999999992,
+      "id": 73
+    },
+    {
+      "date": "11/10/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 46.98,
+      "balance": 32579.839999999993,
+      "id": 74
+    },
+    {
+      "date": "11/18/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 26.47,
+      "balance": 32553.36999999999,
+      "id": 75
+    },
+    {
+      "date": "11/18/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 20.78,
+      "balance": 32532.589999999993,
+      "id": 76
+    },
+    {
+      "date": "11/24/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 36.46,
+      "balance": 32496.129999999994,
+      "id": 77
+    },
+    {
+      "date": "11/24/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 22.27,
+      "balance": 32473.859999999993,
+      "id": 78
+    },
+    {
+      "date": "11/24/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 43.72,
+      "balance": 32430.139999999992,
+      "id": 79
+    },
+    {
+      "date": "11/24/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 34716.13999999999,
+      "id": 80
+    },
+    {
+      "date": "12/02/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 31.12,
+      "balance": 34685.01999999999,
+      "id": 81
+    },
+    {
+      "date": "12/02/2023",
+      "description": "WAL-MART #5201 EDISON NJ",
+      "isDeposit": false,
+      "amount": 53.46,
+      "balance": 34631.55999999999,
+      "id": 82
+    },
+    {
+      "date": "12/02/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 26.05,
+      "balance": 34605.50999999999,
+      "id": 83
+    },
+    {
+      "date": "12/03/2023",
+      "description": "GT Japanese Automotive Inc.",
+      "isDeposit": false,
+      "amount": 78,
+      "balance": 34449.50999999999,
+      "id": 84
+    },
+    {
+      "date": "12/03/2023",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 31449.509999999987,
+      "id": 85
+    },
+    {
+      "date": "12/08/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 33735.51,
+      "id": 1000
+    },
+    {
+      "date": "12/08/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 35.95,
+      "balance": 33699.56,
+      "id": 86
+    },
+    {
+      "date": "12/08/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 37.32,
+      "balance": 33662.24,
+      "id": 87
+    },
+    {
+      "date": "12/08/2023",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 42.85,
+      "balance": 33619.39,
+      "id": 88
+    },
+    {
+      "date": "12/08/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 100,
+      "balance": 33519.39,
+      "id": 89
+    },
+    {
+      "date": "12/08/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 500,
+      "balance": 33019.39,
+      "id": 90
+    },
+    {
+      "date": "12/09/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 1000,
+      "balance": 32019.39,
+      "id": 91
+    },
+    {
+      "date": "12/09/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": 29019.39,
+      "id": 92
+    },
+    {
+      "date": "12/09/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 5000,
+      "balance": 24019.39,
+      "id": 95
+    },
+    {
+      "date": "12/09/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 10000,
+      "balance": 14019.39,
+      "id": 96
+    },
+    {
+      "date": "12/09/2023",
+      "description": "crypto.com Miami FL",
+      "isDeposit": false,
+      "amount": 10000,
+      "balance": 4019.39,
+      "id": 97
+    },
+    {
+      "date": "12/09/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 3800,
+      "balance": 219.39,
+      "id": 98
+    },
+    {
+      "date": "12/14/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 50,
+      "balance": 269.39,
+      "id": 99
+    },
+    {
+      "date": "12/15/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 250,
+      "balance": 519.39,
+      "id": 100
+    },
+    {
+      "date": "12/15/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 260,
+      "balance": 779.39,
+      "id": 101
+    },
+    {
+      "date": "12/15/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 510,
+      "balance": 1289.39,
+      "id": 102
+    },
+    {
+      "date": "12/16/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 19.82,
+      "balance": 1269.57,
+      "id": 1001
+    },
+    {
+      "date": "12/16/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 15.72,
+      "balance": 1253.85,
+      "id": 1002
+    },
+    {
+      "date": "12/16/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 50,
+      "balance": 1203.85,
+      "id": 1003
+    },
+    {
+      "date": "12/18/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 20,
+      "balance": 1223.85,
+      "id": 1004
+    },
+    {
+      "date": "12/18/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 1400,
+      "balance": 2623.85,
+      "id": 1005
+    },
+    {
+      "date": "12/18/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 1980,
+      "balance": 4603.85,
+      "id": 1006
+    },
+    {
+      "date": "12/18/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 550,
+      "balance": 1937.8499999999885,
+      "id": 1007
+    },
+    {
+      "date": "12/19/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 2000,
+      "balance": 3937.8499999999885,
+      "id": 1008
+    },
+    {
+      "date": "12/19/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 2500,
+      "balance": 1437.8499999999885,
+      "id": 1009
+    },
+    {
+      "date": "12/22/2023",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 1700,
+      "balance": 3137.8499999999885,
+      "id": 1010
+    },
+    {
+      "date": "12/22/2023",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": 5405.3899999999885,
+      "id": 1011
+    },
+    {
+      "date": "12/23/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 18.46,
+      "balance": 5386.9299999999885,
+      "id": 1012
+    },
+    {
+      "date": "12/26/2023",
+      "description": "Alchemy GPS Europe Vilnius LT",
+      "isDeposit": false,
+      "amount": 5000,
+      "balance": 386.92999999998847,
+      "id": 1013
+    },
+    {
+      "date": "12/27/2023",
+      "description": "DELTA EDISON",
+      "isDeposit": false,
+      "amount": 40,
+      "balance": 346.92999999998847,
+      "id": 1014
+    },
+    {
+      "date": "12/29/2023",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 19.99,
+      "balance": 326.93999999998846,
+      "id": 1015
+    },
+    {
+      "date": "12/29/2023",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 23.98,
+      "balance": 302.95999999998844,
+      "id": 1016
+    },
+    {
+      "date": "01/02/2024",
+      "description": "Zelle From BEIHONG FENG 888-797-7711",
+      "isDeposit": true,
+      "amount": 500,
+      "balance": 802.9599999999884,
+      "id": 1017
+    },
+    {
+      "date": "01/02/2024",
+      "description": "WITHDRAWALS",
+      "isDeposit": false,
+      "amount": 750,
+      "balance": 52.95999999998844,
+      "id": 1018
+    },
+    {
+      "date": "01/03/2024",
+      "description": "NELNET STUDENT LOAN PAYMENT",
+      "isDeposit": false,
+      "amount": 3000,
+      "balance": -2947.040000000012,
+      "id": 1019
+    },
+    {
+      "date": "01/04/2024",
+      "description": "Over Charge Fees",
+      "isDeposit": false,
+      "amount": 50,
+      "balance": -2997.040000000012,
+      "id": 1020
+    },
+    {
+      "date": "01/05/2024",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 2286,
+      "balance": -711.0400000000118,
+      "id": 1021
+    },
+    {
+      "date": "01/05/2024",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 1143,
+      "balance": 431.96,
+      "id": 1022
+    },
+    {
+      "date": "01/05/2024",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 18.87,
+      "balance": 413.09,
+      "id": 1023
+    },
+    {
+      "date": "01/05/2024",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 19.87,
+      "balance": 393.21999999999997,
+      "id": 1024
+    },
+    {
+      "date": "01/12/2024",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 17.13,
+      "balance": 376.09,
+      "id": 1025
+    },
+    {
+      "date": "01/12/2024",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 18.11,
+      "balance": 357.97999999999996,
+      "id": 1026
+    },
+    {
+      "date": "01/12/2024",
+      "description": "FUEL ONE",
+      "isDeposit": false,
+      "amount": 40,
+      "balance": 317.97999999999996,
+      "id": 1027
+    },
+    {
+      "date": "01/19/2024",
+      "description": "159950 MERCURY S DIR DEP",
+      "isDeposit": true,
+      "amount": 1143,
+      "balance": 1460.98,
+      "id": 1028
+    },
+    {
+      "date": "01/19/2024",
+      "description": "ALDI 60077 EDISON",
+      "isDeposit": false,
+      "amount": 19.05,
+      "balance": 1441.93,
+      "id": 1029
+    },
+    {
+      "date": "01/19/2024",
+      "description": "99 RANCH #1601 EDISON",
+      "isDeposit": false,
+      "amount": 19.34,
+      "balance": 1422.5900000000001,
+      "id": 1030
     }
   ]
 }

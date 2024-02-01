@@ -211,6 +211,12 @@ table {
   border-collapse: collapse;
 }
 
+.transactions-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 th,
 td {
   padding: 8px;
@@ -224,4 +230,50 @@ th {
 
 tbody tr:last-child td {
   border-bottom: none;
+}
+
+.pagination {
+  display: flex;
+  margin: 0.25rem 0 0.5rem;
+}
+
+/* .page-link {
+  display: inline-flex;
+  height: 1.5rem;
+  padding: 0.125rem 0.25rem;
+  text-align: center;
+  border: 1px solid #cccccc;
+  line-height: 1rem;
+} */
+
+.page-item {
+  border: 1px solid #cccccc;
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 0.25rem;
+}
+
+.pagination .page-item:not(:last-child) {
+  border-right: none;
+}
+
+.page-link {
+  color: var(--font-color-blue);
+}
+
+.page-item.active {
+  background-color: var(--font-color-blue);
+}
+
+.page-item.active .page-link {
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: var(--font-color-light);
+}
+
+.pagination .page-item:not(:first-child):not(:last-child) {
+  width: 2rem;
 }

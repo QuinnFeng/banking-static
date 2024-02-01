@@ -1,4 +1,6 @@
 export const descriptions = [
+  "Zelle From BEIHONG FENG 888-797-7711",
+  "Alchemy GPS Europe Vilnius LT",
   "ALDI 60077 EDISON",
   "159950 MERCURY S DIR DEP",
   "99 RANCH #1601 EDISON",

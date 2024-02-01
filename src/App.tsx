@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      {/* <Header
+      <Header
         page={page}
         setPage={setPage}
       />
@@ -32,6 +32,7 @@ function App() {
       <button
         className="btn"
         onClick={() => setIsCreate(!isCreate)}
+        style={{ display: "none" }}
       >
         {isCreate ? "Home" : "Post Transaction"}
       </button>
@@ -51,8 +52,8 @@ function App() {
         {descriptions.map((description) => (
           <option key={description}>{description}</option>
         ))}
-      </datalist> */}
-      <LandingPage />
+      </datalist>
+      {/* <LandingPage /> */}
     </>
   );
 }
