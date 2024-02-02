@@ -7,14 +7,25 @@ import { data } from "../util/const";
 export const Transactions = () => {
   const [tid, setTid] = useState(0);
   // const { deleteTransaction } = useTransactions();
-  const transactions = data.transactions;
+  const [transactions, setTransactions] = useState<transaction[]>([]);
   const pageCount = 12;
   const [pageOffset, setPageOffset] = useState(0);
   const [repositories, setRepositories] = useState<transaction[]>([]);
 
   useEffect(() => {
+    // Assuming data.transactions is your initial array
+    const initialTransactions = data.transactions;
+
+    // Create a new array with the reversed order
+    const reversedTransactions = [...initialTransactions].reverse();
+
+    // Update the state with the reversed array
+    setTransactions(reversedTransactions);
+  }, []);
+
+  useEffect(() => {
     setRepositories(slicedTransaction);
-  }, [pageOffset, transactions]);
+  }, [pageOffset]);
 
   function slicedTransaction() {
     return transactions.slice(
