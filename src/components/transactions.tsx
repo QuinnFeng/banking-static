@@ -25,7 +25,7 @@ export const Transactions = () => {
 
   useEffect(() => {
     setRepositories(slicedTransaction);
-  }, [pageOffset]);
+  }, [pageOffset, transactions]);
 
   function slicedTransaction() {
     return transactions.slice(
