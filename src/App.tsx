@@ -35,18 +35,16 @@ function App() {
       >
         {isCreate ? "Home" : "Post Transaction"}
       </button>
-      <TransactionProvider>
-        {isCreate ? (
-          <section>
-            <AddTransaction />
-          </section>
-        ) : (
-          <section className="activities container">
-            <Balance />
-            <Transactions />
-          </section>
-        )}
-      </TransactionProvider>
+      {isCreate ? (
+        <section>
+          <AddTransaction />
+        </section>
+      ) : (
+        <section className="activities container">
+          <Balance />
+          <Transactions />
+        </section>
+      )}
       <datalist id="descriptions">
         {descriptions.map((description) => (
           <option key={description}>{description}</option>

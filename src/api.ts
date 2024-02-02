@@ -1,7 +1,7 @@
 import { account, transaction } from "./types";
 
-//const baseUrl = "http://localhost:3000";
-const baseUrl = "https://db-json-brown.vercel.app/";
+const baseUrl = "http://localhost:3000";
+//const baseUrl = "https://db-json-brown.vercel.app/";
 const headers = {
   "Content-type": "application/json",
 };

@@ -3,10 +3,12 @@ import { useTransactions } from "./TransactionProvider";
 import { formatNumber } from "../util/util";
 import ReactPaginate from "react-paginate";
 import { transaction } from "../types";
+import { data } from "../util/const";
 
 export const Transactions = () => {
   const [tid, setTid] = useState(0);
-  const { transactions, deleteTransaction } = useTransactions();
+  // const { deleteTransaction } = useTransactions();
+  const transactions = data.transactions;
   const pageCount = 12;
   const [pageOffset, setPageOffset] = useState(0);
   const [repositories, setRepositories] = useState<transaction[]>([]);
@@ -40,7 +42,7 @@ export const Transactions = () => {
         <button
           className="btn"
           onClick={() => {
-            deleteTransaction(tid);
+            // deleteTransaction(tid);
             setTid(0);
           }}
         >
