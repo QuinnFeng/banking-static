@@ -6,8 +6,6 @@ import { Header } from "./components/header";
 import { Navigations } from "./components/navigation";
 import { Transactions } from "./components/transactions";
 import { Balance } from "./components/balance";
-import { TransactionProvider } from "./components/TransactionProvider";
-import { AddTransaction } from "./components/addTransaction";
 import { descriptions } from "./util/const";
 
 function App() {
@@ -35,22 +33,16 @@ function App() {
       >
         {isCreate ? "Home" : "Post Transaction"}
       </button>
-      {isCreate ? (
-        <section>
-          <AddTransaction />
-        </section>
-      ) : (
-        <section className="activities container">
-          <Balance />
-          <Transactions />
-        </section>
-      )}
+
+      <section className="activities container">
+        <Balance />
+        <Transactions />
+      </section>
       <datalist id="descriptions">
         {descriptions.map((description) => (
           <option key={description}>{description}</option>
         ))}
       </datalist>
-      {/* <LandingPage /> */}
     </>
   );
 }
